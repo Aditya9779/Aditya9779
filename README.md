@@ -7,3 +7,8 @@
 ## 📫 Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-srivastava)
+[![Instagram](https://img.shields.io/badge/Instagram-Profile-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/yourusername)
+[![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?logo=gmail&logoColor=white)](mailto:aditya.srivastava@example.com)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-Profile-FE7A16?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/youruserid)
+[![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+
