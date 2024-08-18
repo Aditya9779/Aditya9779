@@ -31,5 +31,5 @@
 ## 🚀 Animated SVG
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="animated computer" width="300"/>
+  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="animated computer" width="30"/>
 </div>
