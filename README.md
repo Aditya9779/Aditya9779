@@ -1,35 +1,34 @@
-# 👋 Hi, I’m [@Aditya9779](https://github.com/Aditya9779)
+name: Generate snake animation
 
-![wave](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif) 
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
 
-## 👀 Interests
-- Developing Native Apps & Web Applications
+  workflow_dispatch:
 
-## 🌱 Currently Learning
-- Android Development
-- Java Full-Stack with Spring Boot
+  push:
+    branches:
+    - master
 
-## 💞️ Looking to Collaborate
-- Individuals who can help with Android Development & Web Applications
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
-## 📫 How to Reach Me
-- Email: [aditya107161@gmail.com](mailto:aditya107161@gmail.com)
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark
 
-## 📫 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-srivastava)
-[![Instagram](https://img.shields.io/badge/Instagram-Profile-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/yourusername)
-[![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?logo=gmail&logoColor=white)](mailto:aditya.srivastava@example.com)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-Profile-FE7A16?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/youruserid)
-[![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/yourusername)
-
-## 🎨 Animated Badges
-
-![GitHub followers](https://img.shields.io/github/followers/Aditya9779?logo=github&style=social) 
-![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social) 
-
-## 🚀 Animated SVG
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="animated computer" width="300"/>
-</div>
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
