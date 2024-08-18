@@ -1,5 +1,7 @@
 # 👋 Hi, I’m [@Aditya9779](https://github.com/Aditya9779)
 
+![wave](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif) 
+
 ## 👀 Interests
 - Developing Native Apps & Web Applications
 
@@ -23,10 +25,11 @@
 
 ## 🎨 Animated Badges
 
-Here are some animated badges for fun:
+![GitHub followers](https://img.shields.io/github/followers/Aditya9779?logo=github&style=social) 
+![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social) 
 
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=for-the-badge)
-![Instagram](https://img.shields.io/badge/Instagram-Profile-E4405F?logo=instagram&logoColor=white&style=for-the-badge)
-![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?logo=gmail&logoColor=white&style=for-the-badge)
-![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-Profile-FE7A16?logo=stackoverflow&logoColor=white&style=for-the-badge)
-![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)
+## 🚀 Animated SVG
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="animated computer" width="300"/>
+</div>
