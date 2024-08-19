@@ -15,7 +15,6 @@
   <a href="https://x.com/AdityaS43382207" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="141" height="71" alt="twitter logo"  />
   </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="141" height="71" alt="discord logo"  />
   <a href="https://stackoverflow.com/users/23327625/aditya-srivastava" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="141" height="71" alt="stackoverflow logo"  />
   </a>
