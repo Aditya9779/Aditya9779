@@ -89,9 +89,6 @@
   <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="62" alt="tailwindcss logo"  />
 </div>
 
-###
-
-<br clear="both">
 
 
 <div align="center">
